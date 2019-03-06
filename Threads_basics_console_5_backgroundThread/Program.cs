@@ -10,7 +10,6 @@ namespace Threads_basics_console_5_backgroundThread
             ThreadStart ts = new ThreadStart(Method);
             Thread t = new Thread(ts);
 
-            // Делаем поток фоновым.
             t.IsBackground = true;
             t.Start();
 

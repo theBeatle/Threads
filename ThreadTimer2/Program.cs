@@ -26,7 +26,7 @@ namespace ThreadTimer2
             {
                 Timer a = (Timer)obj;
                 a.Dispose(); // timer Stop 
-                Console.WriteLine("Timer End");
+                Console.WriteLine("kaboom!!!");
             }
 
         }
